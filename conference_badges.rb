@@ -28,11 +28,11 @@ def printer(array)
   array2 = assign_rooms(array)
   
   array1.each do |name|
-    puts array1.index(name)
+    puts array1[array1.index(name)]
   end
   
   array2.each do |name|
-   puts  array2.index(name)
+   puts  array2[array2.index(name)]
   end
  
   
